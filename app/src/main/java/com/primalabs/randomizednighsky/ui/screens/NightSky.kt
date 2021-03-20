@@ -67,7 +67,7 @@ fun NightSkyContent(astroData: AstroData, starAlphaAnimations: SnapshotStateList
 }
 
 class AstroData(
-    val numberOfStars: Int = 200,
+    val numberOfStars: Int = 250,
     var randomStars: List<AstroStar> = mutableListOf()
 )
 
